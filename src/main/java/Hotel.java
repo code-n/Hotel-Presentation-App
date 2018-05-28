@@ -692,7 +692,7 @@ public class Hotel extends JFrame implements ActionListener
 
             try
             {
-                String msAccDB = "C:/Users/Tom/Documents/htl.accdb";
+                String msAccDB = "C:/Users/Tom/Documents/hotel_database.accdb";
                 String dbURL = "jdbc:ucanaccess://" + msAccDB;
 
                 con=DriverManager.getConnection(dbURL);
